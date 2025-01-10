@@ -1,5 +1,38 @@
+    /*** -------------- Design System ------------- **/
+
+
 :root{
     --bs-font-sans-serif: 'Roboto', sans-serif;
     --bs-body-font-weight: 400;
     --bs-body-font-size: 1rem;
 }
+
+
+.btn-primary {
+    --bs-btn-color: black;
+        --bs-btn-bg: #1BD760;
+        --bs-btn-border-color: #1BD760;
+        --bs-btn-hover-color: black;
+        --bs-btn-hover-bg: #13a84a;
+        --bs-btn-hover-border-color: #13a84a;
+        --bs-btn-focus-shadow-rgb: 49, 132, 253;
+        --bs-btn-active-color: black;
+        --bs-btn-active-bg: #13a84a;
+        --bs-btn-active-border-color: #13a84a;
+        --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    }
+
+    /*** -------------- Hero ------------- **/
+
+    .img-fluid{
+        width: 100%;
+        height: 60vh;
+        object-fit: cover;
+    }
+
+    /*** -------------- Weekly Offers ------------- **/
+
+
+    .card{
+        width: 100%;
+    }

@@ -33,38 +33,95 @@
             </div>
         </nav>
     </header>
-    <main>
-        <div id="hero" class="p-5 mb-4 bg-light rounded-3">
-            <div class="container-fluid py-5">
-                <h1 class="display-5 fw-bold">Nome azienda</h1>
-                <p class="col-md-8 fs-4">
-                    Payoff
-                </p>
-                <button class="btn btn-primary btn-lg" type="button">
-                    Example button
-                </button>
-            </div>
+    <main>  <!-- con JS bottone per ogni sezione per farla scomparire al click, counter numero viaggi in pagina, funzione che rmuove tutte le card dalla pagina -->
+
+        <div id="hero" class="container text-center">
+            <h1 class="display-4 fw-bold">Benvenuto nel nostro sito!</h1>
+            <p class="lead text-muted">Viaggi quasi gratis in tutto il mondo... Se prenoti in tempo</p>
+            <button id="blackPage" class="btn btn-primary btn-lg" type="button">
+                Ripulisci la pagina
+            </button>
         </div>
-        <section id="weekly-offers" class="container row">
-            4 card offerta settimana con ombra
+
+        <section id="weeklyOffers" class="container-fluid row g-3 align-items-center justify-content-center"> <!--4L 3M 2S-->
+                <div class="weeklyOffer col-6 col-md-4 col-lg-3"> <!-- card 1 -->
+                    <div class="card"">   
+                        <img src="https://content.skyscnr.com/m/24ad62647d034064/original/GettyImages-177762083.jpg?resize=1800px:1800px&quality=100" class="card-img-top" alt="Formentera">
+                        <div class="card-body">
+                            <div class="d-flex flex-wrap-reverse justify-content-between align-items-start">
+                            <h5 class="card-title">7 mesi a Formentera</h5>
+                            <span class="badge text-bg-primary rounded-pill">50€</span>
+                        </div>
+                            <h6 class="card-subtitle">Europa Facile</h6>
+                            <p class="card-text">ci vanno tutti, perché non tu?</p>
+                            <a href="#" target="_blank" class="btn btn-primary">Prenota ora!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="weeklyOffer col-6 col-md-4 col-lg-3"> <!-- card 2 -->
+                    <div class="card"">   
+                        <img src="https://content.skyscnr.com/m/24ad62647d034064/original/GettyImages-177762083.jpg?resize=1800px:1800px&quality=100" class="card-img-top" alt="Formentera">
+                        <div class="card-body">
+                            <div class="d-flex flex-wrap-reverse justify-content-between align-items-start">
+                            <h5 class="card-title">7 mesi a Formentera</h5>
+                            <span class="badge text-bg-primary rounded-pill">50€</span>
+                        </div>
+                            <h6 class="card-subtitle">Europa Facile</h6>
+                            <p class="card-text">ci vanno tutti, perché non tu?</p>
+                            <a href="#" target="_blank" class="btn btn-primary">Prenota ora!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="weeklyOffer col-6 col-md-4 col-lg-3"> <!-- card 3 -->
+                    <div class="card"">   
+                        <img src="https://content.skyscnr.com/m/24ad62647d034064/original/GettyImages-177762083.jpg?resize=1800px:1800px&quality=100" class="card-img-top" alt="Formentera">
+                        <div class="card-body">
+                            <div class="d-flex flex-wrap-reverse justify-content-between align-items-start">
+                            <h5 class="card-title">7 mesi a Formentera</h5>
+                            <span class="badge text-bg-primary rounded-pill">50€</span>
+                        </div>
+                            <h6 class="card-subtitle">Europa Facile</h6>
+                            <p class="card-text">ci vanno tutti, perché non tu?</p>
+                            <a href="#" target="_blank" class="btn btn-primary">Prenota ora!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="weeklyOffer col-6 col-md-4 col-lg-3"> <!-- card 4 -->
+                    <div class="card"">   
+                        <img src="https://content.skyscnr.com/m/24ad62647d034064/original/GettyImages-177762083.jpg?resize=1800px:1800px&quality=100" class="card-img-top" alt="Formentera">
+                        <div class="card-body">
+                            <div class="d-flex flex-wrap-reverse justify-content-between align-items-start">
+                            <h5 class="card-title">7 mesi a Formentera</h5>
+                            <span class="badge text-bg-primary rounded-pill">50€</span>
+                        </div>
+                            <h6 class="card-subtitle">Europa Facile</h6>
+                            <p class="card-text">ci vanno tutti, perché non tu?</p>
+                            <a href="#" target="_blank" class="btn btn-primary">Prenota ora!</a>
+                        </div>
+                    </div>
+                </div>
+                
         </section>
-        <section id="welcome-summer" class="container row">
+
+        <section id="welcome-summer" class="container row"> <!--6L 3M 2S-->
             6 card destinazioni estive
         </section>
+
         <section id="daily-offers" class="container row">
             66% img 33% testo NO MOBILE
         </section>
-        <section id="last-minute-offers" class="container row">
+
+        <section id="last-minute-offers" class="container row"> <!--4L 3M 2S-->
             4 card immagini destinazioni
         </section>
+
         <section id="testimonials" class="container row">
             testimonial finti
         </section>
-        
     </main>
 
     <footer>
-        informazioni + bottone contatti
+        informazioni + bottone contatti (al bottoe spunta una modale con campo email e messaggio)
     </footer>
 
 
