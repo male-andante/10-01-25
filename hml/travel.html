@@ -15,7 +15,8 @@
         <nav class="navbar fixed-top navbar-expand-lg bg-primary-subtle">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="../assets/pngtree-designing-a-business-travel-agency-logo-with-travel-icon-vector-png-image_34661770.png" alt="Fritrip travel agency">
+                    <img src="../assets/pngtree-designing-a-business-travel-agency-logo-with-travel-icon-vector-png-image_34661770.png"
+                        alt="Fritrip travel agency">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -25,11 +26,11 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Offerte della Settimana</a>
-                        <a class="nav-link" href="#">Offerte Estive</a>
-                        <a class="nav-link" href="#">Offerta del Giorno</a>
-                        <a class="nav-link" href="#">Offerte Last Minute</a>
-                        <a class="nav-link" href="#">Testimonials</a>
+                        <a class="nav-link" href="#weeklyOffers">Offerte della Settimana</a>
+                        <a class="nav-link" href="#welcomeSummerOffers">Offerte Estive</a>
+                        <a class="nav-link" href="#dailyOffers">Offerta del Giorno</a>
+                        <a class="nav-link" href="#lastMinuteOffers">Offerte Last Minute</a>
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
                     </div>
                 </div>
             </div>
@@ -47,7 +48,7 @@
         </div>
 
         <section id="weeklyOffers" class="container-fluid row g-3 align-items-center justify-content-center">
-            <!--4L 3M 2S-->
+            <h1>Offerte della Settimana</h1>
             <div class="weeklyOffer col-6 col-md-4 col-lg-3"> <!-- card 1 -->
                 <div class="card"">   
                         <img src="
@@ -118,6 +119,7 @@
         </section>
 
         <section id="welcomeSummerOffers" class="container-fluid row g-3 align-items-center justify-content-center">
+            <h1>Benvenuta Estate!</h1>
             <div class="summerOffer col-6 col-md-4 col-lg-2"> <!-- card 1 -->
                 <div class="card"">   
                     <img src="
@@ -139,13 +141,20 @@
             </button>
         </section>
 
-        <section id="dailyOffers" class="container-fluid row g-3 align-items-center justify-content-center">
-            <div class="col-6 col-md-8 col-lg-8"> <!-- sezione al 66%, ma forse lo faccio con la width invece che con le colonne-->
-                <img src="https://content.skyscnr.com/m/24ad62647d034064/original/GettyImages-177762083.jpg?resize=1800px:1800px&quality=100" class="img-fluid img-thumbnail" alt="Formentera">
+        <section id="dailyOffers" class="container-fluid row g-3 align-items-start justify-content-center">
+            <h1>Offerte del Giorno</h1>
+            <div id="imageContainer" class="d-flex flex-row justify-content-start align-items-center">
+                <!-- sezione al 66%, ma forse lo faccio con la width invece che con le colonne-->
+                <img src="https://content.skyscnr.com/m/24ad62647d034064/original/GettyImages-177762083.jpg?resize=1800px:1800px&quality=100"
+                    class="img-fluid img-thumbnail" alt="Formentera">
             </div>
-            <div class="col-6 col-md-4 col-lg-4"> <!-- sezione al 33%, ma forse lo faccio con la width invece che con le colonne-->
-            
-            </div>
+            <div id="textContainer" class="d-flex flex-column justify-content-start align-items-start">
+                <!-- sezione al 33%, ma forse lo faccio con la width invece che con le colonne-->
+                <h2>Destinazione del Giorno</h2>
+                <h4>10 Aprile - 24 Maggio</h4>
+                <h6>25€</h6>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus vitae officia, illo sed quaerat fugiat blanditiis dolorum aspernatur autem adipisci nisi facilis nemo, alias sunt praesentium modi eaque obcaecati. Veritatis.</p>
+
             </div>
             <button id="blankSection" class="btn btn-primary btn-lg" type="button">
                 Ripulisci la sezione
@@ -229,7 +238,7 @@
                 Ripulisci la sezione
             </button>
         </section>
-        
+
     </main>
 
     <footer>
